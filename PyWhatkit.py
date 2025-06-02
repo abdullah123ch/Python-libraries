@@ -58,19 +58,19 @@ print("Web browser opened:", success)
 #6. email Automation:
 
 # Example: Send a plain text email (requires valid credentials and may need app password for Gmail)
-# pywhatkit.send_mail(
-#     "your_email@gmail.com",           # Sender's email
-#     "your_password",                  # Sender's email password or app password
-#     "Greetings",                      # Subject
-#     "Hello, this is a test email!",   # Message
-#     "receiver_email@gmail.com"        # Receiver's email
-# )
+pywhatkit.send_mail(
+     "your_email@gmail.com",           # Sender's email
+     "your_password",                  # Sender's email password or app password
+     "Greetings",                      # Subject
+     "Hello, this is a test email!",   # Message
+     "receiver_email@gmail.com"        # Receiver's email
+)
 
 # Example: Send an HTML email
-# pywhatkit.send_hmail(
-#     "your_email@gmail.com",           # Sender's email
-#     "your_password",                  # Sender's email password or app password
-#     "HTML Greetings",                 # Subject
-#     "<h1>Hello!</h1><p>This is an <b>HTML</b> email.</p>",  # HTML code
-#     "receiver_email@gmail.com"        # Receiver's email
-# )
+pywhatkit.send_hmail(
+     "your_email@gmail.com",           # Sender's email
+     "your_password",                  # Sender's email password or app password
+     "HTML Greetings",                 # Subject
+     "<h1>Hello!</h1><p>This is an <b>HTML</b> email.</p>",  # HTML code
+     "receiver_email@gmail.com"        # Receiver's email
+   )
