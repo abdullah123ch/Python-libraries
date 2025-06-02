@@ -17,7 +17,6 @@ This repository contains example scripts and usage guides for two powerful Pytho
 - **Google Search:** Automate Google searches and retrieve information.
 - **Email Automation:** Send plain text and HTML emails programmatically.
 
-
 ## PyAutoGUI
 
 **PyAutoGUI** is a Python library for automating mouse and keyboard interactions, taking screenshots, and interacting with on-screen elements.
